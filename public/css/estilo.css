@@ -1,0 +1,113 @@
+#header_multilatino img{
+    width: 200px;
+}
+
+a{
+    color : #195A40;
+}
+
+#main-head a:hover{
+    background-color: #FCD925;
+    color : black;
+}
+
+#main-head .carousel-inner img{
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .first-action{
+    position: absolute;
+    top: 58%;
+    bottom:  0px;
+    right: 0px;
+    left: 0px;
+    color:white;
+    z-index: 1;
+}
+
+.first-action h1{
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+    
+    font-style: italic;
+    font-weight: bold;
+}
+
+.redondeado-arriba{
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+}
+
+.redondeado-abajo{
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+
+.redondeado-izquierda{
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.redondeado-derecha{
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.redondeado{
+    border-radius: 10px !important;
+}
+
+@media screen and (max-width:820px) {
+  /* reglas CSS */
+    #carousel .first-action{
+      position: relative;
+      top: -20px;
+      bottom:  0px;
+      right: 0px;
+      left: 0px;
+      color:white;
+  }
+}
+
+
+
+.btn-multi{
+    background-color:  #E0272C;
+    color : white;
+    font-style: bold;
+}
+
+.btn-multi-light{
+    background-color: #38c172;
+    color : white;
+    font-style: bold;
+}
+
+
+
+.bmulti{
+    background-color: #195A40;
+    color:white;
+}
+
+.cmulti{
+    color:#195A40;
+}
+
+
+
+
+.blanco-trans {
+    
+    background-color:   rgba(255, 255, 255, 0.90);
+    /*background-color:   rgba(238, 229, 18, 0.85);*/
+    
+}
+
+#footer{
+    background-color: #E5E5E5;
+}
